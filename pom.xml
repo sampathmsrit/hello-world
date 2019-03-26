@@ -216,5 +216,11 @@
   <prerequisites>
     <maven>3.0.3</maven>
   </prerequisites>
-
+<distributionManagement>
+                <repository>
+                        <id>samrepo</id>
+                        <name>samrepo</name>
+                        <url>http://18.144.28.53:8081/nexus/content/repositories/samrepo/</url>
+                </repository>
+</distributionManagement> 
 </project>
